@@ -1,0 +1,94 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 52px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.image-container {
+    position: relative;
+    height: calc(100vh - 40px);
+    overflow: hidden;
+}
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+.box {
+    position: absolute;
+    bottom: 20%;
+    background-color: rgba(255, 255, 0, 0.7);
+    padding: 50px;
+    text-align: center;
+    font-size: 180%;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 13%;
+    height: 18%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    overflow: hidden;
+}
+
+    .box:hover {
+        transform: scale(1.05);
+    }
+
+.chickens {
+    top: 80%;
+    left: 10%;
+}
+
+.ducks {
+    top: 80%;
+    left: 30%;
+    margin-left: 2%;
+}
+
+.geese {
+    top: 80%;
+    left: 50%;
+    margin-left: 4%;
+}
+
+.hatchery {
+    top: 80%;
+    left: 70%;
+    margin-left: 6%;
+}
