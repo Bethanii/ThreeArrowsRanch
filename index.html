@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Arrows Ranch</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+    </div>
+
+    <div class="logo-banner">
+        <img src="Media/logo-banner.png" alt="three arrows ranch logo">
+        </div>
+    <div class="logo">
+        <img src="Media/3a-logo.png" alt="three arrows ranch logo">
+        </div>
+
+    <div class="selection-container">
+         <div class="box chickens" onclick="window.location.href='chickens.html';">
+            <h2>Chickens</h2>
+         </div>
+
+         <div class="box ducks" onclick="window.location.href='ducks.html';">
+             <h2>Ducks</h2>
+         </div>
+
+         <div class="box geese" onclick="window.location.href='geese.html';">
+             <h2>Geese</h2>
+         </div>
+
+         <div class="box hatchery" onclick="window.location.href='hatchery.html';">
+             <h2>Hatchery</h2>
+         </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        const boxes = document.querySelectorAll('.box');
+        boxes.forEach(box => {
+        box.addEventListener('mouseover', () => {
+        box.classList.add('hover');
+        });
+        box.addEventListener('mouseout', () => {
+            box.classList.remove('hover');
+        });
+    });
+</script>
+</body>
+</html>

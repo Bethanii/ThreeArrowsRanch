@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three Arrows Ranch - Hatchery</title>
+	<link rel="stylesheet" href="pagesstylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body class="page-background">
+	<main>
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+
+
+           <div>
+               <h1 class="title">See the Hatchery</h1>
+           </div>
+
+        <div class="padding">
+           <div>
+               <img class="main-image" src="Media/chickens.jpg" alt="fowl hatchery" style="float: left; margin-right: 10px;">
+            </div>
+
+            <div>
+               <p class="main-paragraph">Welcome to our little homestead! As you step onto our property, you'll notice the lush greenery and the sweet sound of chirping birds. 
+                   We are a small family that believes in sustainable living and have made it our mission to create a self-sufficient life for ourselves. Our love for animals 
+                   and passion for farming led us to raise our own chickens. These feathered friends have become a vital part of our homestead, providing us with fresh eggs 
+                   every day and keeping our garden free from pesky insects. We have built a cozy and secure coop for our hens to rest and lay their eggs. We believe in giving
+                   our chickens a comfortable and happy life, which is why we make sure to let them roam freely during the day. Watching them scratch and peck for insects and 
+                   worms in our backyard is always a delight, and we never tire of their soft clucks and gentle chirps. Our chickens are more than just a source of food for us.
+                   They are part of our family and have unique personalities that make them endearing to us. We have named each one of them and can tell them apart by their
+                   distinct features and behaviors. We love spending time with them, and they never fail to put a smile on our faces. At our homestead, our chickens provide
+                   us with nutritious eggs that we use in our cooking and baking, and their manure is a valuable addition to our compost pile, which nourishes our garden. We
+                   are grateful for our feathered friends and the joy and nourishment they bring to our lives.</p>
+             </div>
+        </div>
+        
+        <div>
+            <h1 class="update-title">Updates and Progress </h1>
+            <h3 class="date">Date:</h3>
+        </div>
+
+        <div class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner carousel-spacing">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="update-paragraph"> Welcome to our little homestead! As you step onto our property, you'll notice the lush greenery and the sweet sound of chirping birds. 
+                                We are a small family that believes in sustainable living and have made it our mission to create a self-sufficient life for ourselves. Our love for animals 
+                                and passion for farming led us to raise our own chickens. These feathered friends have become a vital part of our homestead, providing us with fresh eggs 
+                                every day and keeping our garden free from pesky insects. We have built a cozy and secure coop for our hens to rest and lay their eggs. We believe in giving
+                                our chickens a comfortable and happy life, which is why we make sure to let them roam freely during the day. Watching them scratch and peck for insects and 
+                                worms in our backyard is always a delight, and we never tire of their soft clucks and gentle chirps. Our chickens are more than just a source of food for us.
+                                They are part of our family and have unique personalities that make them endearing to us. We have named each one of them and can tell them apart by their
+                                distinct features and behaviors. We love spending time with them, and they never fail to put a smile on our faces. At our homestead, our chickens provide
+                                us with nutritious eggs that we use in our cooking and baking, and their manure is a valuable addition to our compost pile, which nourishes our garden. We
+                                are grateful for our feathered friends and the joy and nourishment they bring to our lives </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="carousel-image" src="Media/eggsoncounter.jpg" alt="Eggs on counter" style="float: right; max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                       <div class="row">
+                        <div class="col-md-6">
+                            <p class="update-paragraph">  As you step onto our property, you'll notice the lush greenery and the sweet sound of chirping birds. 
+                                We are a small family that believes in sustainable living and have made it our mission to create a self-sufficient life for ourselves. Our love for animals 
+                                and passion for farming led us to raise our own chickens. These feathered friends have become a vital part of our homestead, providing us with fresh eggs 
+                                every day and keeping our garden free from pesky insects. We have built a cozy and secure coop for our hens to rest and lay their eggs. We believe in giving
+                                our chickens a comfortable and happy life, which is why we make sure to let them roam freely during the day. Watching them scratch and peck for insects and 
+                                worms in our backyard is always a delight, and we never tire of their soft clucks and gentle chirps. Our chickens are more than just a source of food for us.
+                                They are part of our family and have unique personalities that make them endearing to us. We have named each one of them and can tell them apart by their
+                                distinct features and behaviors. We love spending time with them, and they never fail to put a smile on our faces. At our homestead, our chickens provide
+                                us with nutritious eggs that we use in our cooking and baking, and their manure is a valuable addition to our compost pile, which nourishes our garden. We
+                                are grateful for our feathered friends and the joy and nourishment they bring to our lives </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="carousel-image" src="Media/eggsoncounter.jpg" alt="Eggs on counter" style="float: right; max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span id="right-arrow" class="carousel-control-next-icon" aria-hidden="true" onclick="plusSlides(1)"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("carousel-item");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+        slideIndex = 1
+        }
+        if (n < 1) {
+        slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        }
+</script>
+	</main>
+</body>
+</html>
